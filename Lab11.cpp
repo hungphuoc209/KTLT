@@ -3,11 +3,6 @@
     #include <vector>
     using namespace std;
 
-    string digitName(int digit);
-    string teenName(int number);
-    string tensName(int number);
-    string intName(int number);
-
     vector<string> ones {"","one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     vector<string> teens {"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen","sixteen", "seventeen", "eighteen", "nineteen"};
     vector<string> tens {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
